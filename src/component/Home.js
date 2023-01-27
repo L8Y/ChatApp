@@ -69,7 +69,7 @@ const Home = (props) => {
                     onKeyPress={(event) => event.key === "Enter" && addChatRooms()}
                 />
                 <button className="add-icon" onClick={addChatRooms}>
-                    <img src="https://www.svgrepo.com/show/103977/add.svg" />
+                    <img className="add-img" src="https://www.svgrepo.com/show/103977/add.svg" />
                 </button>
 
                 <input

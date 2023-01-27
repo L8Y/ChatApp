@@ -120,7 +120,7 @@ const ChatArea = (props) => {
                     onKeyPress={(event) => event.key === "Enter" && addMessages()}
                 />
                 <button className="send-icon" onClick={(event) => addMessages(event)}>
-                    <img src="https://www.svgrepo.com/show/263652/message-send.svg" />
+                    <img className="send-img" src="https://www.svgrepo.com/show/263652/message-send.svg" />
                 </button>
             </footer>
         </div>

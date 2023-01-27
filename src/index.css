@@ -151,12 +151,22 @@ code {
   cursor: pointer;
 }
 
+.send-img {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
 .add-icon {
   border: none;
   width: 44px;
   height: 46px;
   border-radius: 9rem;
   cursor: pointer;
+}
+
+.add-img {
+  width: 26px;
+  height: 29px
 }
 
 .logout-button {
